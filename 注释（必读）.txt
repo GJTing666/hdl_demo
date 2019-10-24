@@ -1,0 +1,10 @@
+图片统一保存在IMG文件夹，所需文件已经下载，使用时把自己文件名改为英文；
+视频统一保存在VIDEO文件夹里面，所需文件已经下载；
+单位统一使用rem 引用fontrem.js；jqery 引用jquer2.js;
+为了避免冲突，除公共部分外，各自页面单独写一个CSS；
+
+刘学：关于海底捞 https://www.haidilao.com/zh/gyhdl/index.html + 后台设计
+庭国继：海底捞美食 https://www.haidilao.com/zh/hdlms/index.html + 封装头底部
+孟凡盛：服务中心 https://www.haidilao.com/zh/fwzx/index.html
+陈糠杰：index https://www.haidilao.com/zh/index/index.html
+杨通航：投资者关系 https://www.haidilao.com/zh/tzzgxjt/gszl/index.html

@@ -1,0 +1,449 @@
+/* 字体、颜色、背景色、行高、外边距、内边距、浮动、清除浮动、超出隐藏 */
+
+/* 字体 12 14 16 18 20 22 24 30 36 */
+.font-12 {
+	font-size: .12rem;
+}
+
+.font-14 {
+	font-size: .14rem;
+}
+
+.font-16 {
+	font-size: .16rem;
+}
+
+.font-18 {
+	font-size: .18rem;
+}
+
+.font-20 {
+	font-size: .2rem;
+}
+
+.font-22 {
+	font-size: .22rem;
+}
+
+.font-24 {
+	font-size: .24rem;
+}
+.font-26 {
+	font-size: .26rem;
+}
+.font-28 {
+	font-size: .28rem
+}
+.font-30 {
+	font-size: .3rem;
+}
+
+.font-36 {
+	font-size: .36rem;
+}
+
+.font-w {
+	font-weight: bold;
+}
+
+/* 字体颜色 */
+/* 主色调 */
+.text-main {
+	color: #E60012;
+}
+
+.text-main-active {
+	color: #ec193e;
+}
+
+/* 字体灰色 333 666 999 */
+.text-dark {
+	color: #333;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-gary {
+	color: #666;
+}
+
+.text-graylight {
+	color: #999;
+}
+
+.text-blackdark {
+	color: #aaa;
+}
+
+/* 背景色 f1f1f1 f2f2f2 f7f7f7 */
+.bg-main {
+	background: #ff2d52;
+}
+
+.bg-main-active {
+	background: #ff2d52;
+}
+
+.bg-gray {
+	background: #f2f2f2;
+}
+
+.bg-black {
+	background: #535353;
+}
+
+/* 行高 22 24 36 48 */
+.line-22 {
+	line-height: 0.22rem;
+}
+
+.line-24 {
+	line-height: 0.24rem;
+}
+.line-32 {
+	line-height: 0.32rem;
+}
+.line-34 {
+	line-height: 0.34rem;
+}
+
+.line-48 {
+	line-height: 0.48rem;
+}
+
+/* 左浮动 */
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.content {
+	max-width: 12.00rem;
+	margin: 0 auto;
+}
+
+/* 清除浮动 */
+/* after before 伪元素 */
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+/* 外边距0 */
+.margin-0{
+	margin: 0;
+}
+/* 外边距 5 10 15 20 25 30 */
+/* 外边距 5 */
+.margin-5 {
+	margin: .05rem;
+}
+
+.margin-5-l {
+	margin-left: .05rem;
+}
+
+.margin-5-r {
+	margin-right: .05rem;
+}
+
+.margin-5-t {
+	margin-top: .05rem;
+}
+
+.margin-5-b {
+	margin-bottom: .05rem;
+}
+
+.margin-5-lr {
+	margin: 0 .05rem;
+}
+
+.margin-5-tb {
+	margin: .05rem 0;
+}
+
+/* 外边距 10 */
+.margin-10 {
+	margin: .1rem;
+}
+
+.margin-10-l {
+	margin-left: .1rem;
+}
+
+.margin-10-r {
+	margin-right: .1rem;
+}
+
+.margin-10-t {
+	margin-top: .1rem;
+}
+
+.margin-10-b {
+	margin-bottom: .1rem;
+}
+
+.margin-10-lr {
+	margin: 0 .1rem;
+}
+
+.margin-10-tb {
+	margin: .1rem 0;
+}
+
+/* 外边距 15 */
+.margin-15 {
+	margin: .15rem;
+}
+
+.margin-15-l {
+	margin-left: .15rem;
+}
+
+.margin-15-r {
+	margin-right: .15rem;
+}
+
+.margin-15-t {
+	margin-top: .15rem;
+}
+
+.margin-15-b {
+	margin-bottom: .15rem;
+}
+
+.margin-15-lr {
+	margin: 0 .15rem;
+}
+
+.margin-15-tb {
+	margin: .15rem 0;
+}
+
+/* 外边距 20 */
+.margin-20 {
+	margin: .2rem;
+}
+
+.margin-20-l {
+	margin-left: .2rem;
+}
+
+.margin-20-r {
+	margin-right: .2rem;
+}
+
+.margin-20-t {
+	margin-top: .2rem;
+}
+
+.margin-20-b {
+	margin-bottom: .2rem;
+}
+
+.margin-20-lr {
+	margin: 0 .2rem;
+}
+
+.margin-20-tb {
+	margin: .2rem 0;
+}
+
+
+/* 外边距25 */
+.margin-25 {
+	margin: .25rem;
+}
+
+.margin-25-l {
+	margin-left: .25rem;
+}
+
+.margin-25-r {
+	margin-right: .25rem;
+}
+
+.margin-25-t {
+	margin-top: .25rem;
+}
+
+.margin-25-b {
+	margin-bottom: .25rem;
+}
+
+.margin-25-lr {
+	margin: 0 .25rem;
+}
+
+.margin-25-tb {
+	margin: .25rem 0;
+}
+
+
+/* 外边距 30 */
+.margin-30 {
+	margin: .3rem;
+}
+
+.margin-30-l {
+	margin-left: .3rem;
+}
+
+.margin-30-r {
+	margin-right: .3rem;
+}
+
+.margin-30-t {
+	margin-top: .3rem;
+}
+
+.margin-30-b {
+	margin-bottom: .3rem;
+}
+
+.margin-30-lr {
+	margin: 0 .3rem;
+}
+
+.margin-30-tb {
+	margin: .3rem 0;
+}
+
+/* 外边距 40 */
+.margin-40-l {
+	margin-left: .4rem;
+}
+
+.margin-40-r {
+	margin-right: .4rem;
+}
+
+.margin-40-t {
+	margin-top: .4rem;
+}
+
+.margin-40-b {
+	margin-bottom: .4rem;
+}
+
+.margin-40-lr {
+	margin: 0 .4rem;
+}
+
+.margin-40-tb {
+	margin: .4rem 0;
+}
+/* 外边距 50 */
+.margin-50-l {
+	margin-left: .5rem;
+}
+
+.margin-50-r {
+	margin-right: .5rem;
+}
+
+.margin-50-t {
+	margin-top: .5rem;
+}
+
+.margin-50-b {
+	margin-bottom: .5rem;
+}
+
+.margin-50-lr {
+	margin: 0 .5rem;
+}
+
+.margin-50-tb {
+	margin: .5rem 0;
+}
+
+/* 内边距 */
+.padding-15-top {
+	padding-top: .15rem;
+}
+.padding-50-l {
+	padding-left: .5rem;
+}
+.padding-40-tb{
+	padding: 0.4rem 0;
+}
+.padding-40-top {
+	padding-top: .4rem;
+}
+.padding-80-top {
+	padding-top: .8rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+/* 超出隐藏 */
+.overflow {
+	overflow: hidden;
+}
+
+/* 文字超出显示省略号 */
+.text-ellipsis-t {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* 不允许换行 即一行显示*/
+	white-space: nowrap;
+}
+
+.text-ellipsis-o {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* 动画效果 1 */
+.css3Animation {
+	transition: all 0.5s ease-out 0s;
+}
+
+/* 气泡item */
+.pawpawItem-white{
+	background: url(../img/greatFood/2019071617360947323.png) no-repeat 0 center;
+	padding-left: .2rem;
+}
+
+.pawpawItem-red{
+	background: url(../img/about/2019071514175513256.png) no-repeat 0 center;
+	padding-left: .2rem;
+}
+/* 标签样式重置 */
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+ul,li{
+	margin: 0;
+	padding: 0;
+}

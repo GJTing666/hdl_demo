@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=" utf-8">
+    <title>Welcome--海底捞发布</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/public.css" rel="stylesheet">
+    <link href="../css/btn.css" rel="stylesheet">
+    <link href="../css/system.css" rel="stylesheet">
+    <link rel="/shortcut icon" href="../img/2019071509194486593.ico" type="image/x-icon" />
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class=" clearfix haidilao-system-title">
+        <!-- <div class="fl haidilao-logo">
+            <img src="../img/greatFood/2019071713424793214.png">
+        </div> -->
+        <div class="fr font-16 line-24 haidilao-user">
+            <span class="margin-10-r Adminuser"></span>|
+            <span class="margin-10-l outlogin margin-10-r">退出登陆</span>|
+            <span class="margin-10-l text-main addAmin">添加管理员</span>
+        </div>
+    </div>
+    <div class="haidilao-system-box clearfix">
+        <!-- 侧边 -->
+        <div class="haidilao-system-menu">
+            <a href="../index.html"><img src="../img/ckj/2019071713424793214.png"></a>
+            <h4>Welcome</h4>
+            <a>
+                <div class="font-24 text-main new">新闻</div>
+            </a>
+            <a>
+                <div class="font-24 text-main food">菜品</div>
+            </a>
+        </div>
+        <!-- 内容 -->
+        <div class="haidilao-system-content fr">
+            <!-- <div class="login-box text-center">
+                <div class="about-haidilaoBrand-bg">
+                    <h3>欢迎登陆</h3>
+                </div>
+                <form class="login-form">
+                    <input type="text" name="username" placeholder="Administrators">
+                    <input type="password" name="password" placeholder="Password">
+                </form>
+                <div class="btn-white login">登陆</div>
+            </div> -->
+            <div class="news">
+                <div class="news-title text-center">
+                    <h2>媒体发布</h2>
+                </div>
+                <div class="btn-red" data-toggle="modal" data-target="#myModal">添加新闻</div>
+                <!-- 模态框 -->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <!-- 内容 -->
+                        <div class="modal-content">
+                            <!-- title -->
+                            <div class="modal-header">
+                                <span class="close" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                                <h4 style="margin: 0;">新闻发布</h4>
+                            </div>
+                            <!-- 主体内容 -->
+                            <div class="modal-body">
+                                <form class="form-add">
+                                    <div class="form-group">
+                                      <label  class="control-label">新闻标题</label>
+                                      <input name="name" type="text" class="form-control" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label  class="control-label">新闻内容</label>
+                                        <textarea id="news-content-text" name="textarea"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="message-text" class="control-label">新闻图片</label>
+                                      <input name="img" type="file" class="form-control" accept="image/*">
+                                    </div> 
+                                </form>
+                            </div>
+                            <!-- 底部 -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                <button type="button" class="btn btn-primary fabu">发布</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 模态框END -->
+                <!-- <div class="news-content">
+                    <ul class="font-16">
+                        <form class="form-add">
+                            <li>
+                                <span class="text-main">标题</span><input type="text" name="name">
+                            </li>
+                            <li>
+                                <span class="text-main">图片</span><input type="file" name="img">
+                            </li>
+                            <li>
+                                <span class="text-main">内容</span><textarea id="news-content-text"
+                                    name="textarea"></textarea>
+                            </li>
+                        </form>
+                    </ul>
+                    <div class="btn-red fabu">发布</div>
+                </div> -->
+                <div class="news-success">
+                    <div class="news-success-title">
+                        <span class="title-time">时间</span>
+                        <span class="title-menu">标题</span>
+                        <span class="title-img">图片</span>
+                        <span class="title-content">内容</span>
+                        <span class="title-state">状态</span>
+                    </div>
+                    <div class="news-content-lists">
+                        <div class="news-success-title">
+                            <span class="title-time">时间</span>
+                            <span class="title-menu">标题</span>
+                            <span class="title-img">图片</span>
+                            <span class="title-content">内容</span>
+                            <span class="title-state">状态</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foods">
+                <div class="news-title text-center">
+                    <h2>添加菜品</h2>
+                </div>
+                <div class="btn-red" data-toggle="modal" data-target="#myModal2">添加菜品</div>
+                <div class="modal fade" id="myModal2">
+                    <div class="modal-dialog">
+                        <!-- 内容 -->
+                        <div class="modal-content">
+                            <!-- title -->
+                            <div class="modal-header">
+                                <span class="close" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                                <h4 style="margin: 0;">添加商品</h4>
+                            </div>
+                            <!-- 主体内容 -->
+                            <div class="modal-body">
+                                <form class="form-addFood">
+                                    <div class="form-group">
+                                      <label  class="control-label">菜名</label>
+                                      <input name="foodName" type="text" class="form-control" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="control-label">图片</label>
+                                        <input name="foodImg" type="file" class="form-control" accept="image/*">
+                                      </div>
+                                    <div class="form-group">
+                                      <label class="control-label">分类</label>
+                                      <select  name="foodClass" class="form-control shopClass">
+                                            <option selected="true">肉类</option>
+                                            <option>河鲜海鲜</option>
+                                            <option>丸滑类</option>
+                                            <option>蔬菜类</option>
+                                            <option>豆面制品类</option>
+                                            <option>菌菇类</option>
+                                            <option>小吃甜品</option>
+                                            <option>特色饮品</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group">
+                                            <label  class="control-label">菜品介绍</label>
+                                            <textarea id="news-content-text" name="foodArea"></textarea>
+                                    </div>                                 
+                                </form>
+                            </div>
+                            <!-- 底部 -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                <button type="button" class="btn btn-primary tianjia pushFood">提交</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="news-content">
+                    <ul class="font-16">
+                        <form class="form-addFood">
+                            <li>
+                                <span class="text-main">菜名</span><input type="text" name="foodName">
+                            </li>
+                            <li>
+                                <span class="text-main">图片</span><input type="file" name="foodImg">
+                            </li>
+                            <li>
+                                <span class="text-main">分类</span>
+                                <select name="foodClass">
+                                    <option selected="true">肉类</option>
+                                    <option>河鲜海鲜</option>
+                                    <option>丸滑类</option>
+                                    <option>蔬菜类</option>
+                                    <option>豆面制品类</option>
+                                    <option>菌菇类</option>
+                                    <option>小吃甜品</option>
+                                    <option>特色饮品</option>
+                                </select>
+                            </li>
+                            <li>
+                                <span class="text-main">内容</span><textarea id="news-content-text"
+                                    name="foodArea"></textarea>
+                            </li>
+                        </form>
+                    </ul>
+                    <div class="btn-red tianjia pushFood">添加</div>
+                </div> -->
+                <div class="foods-success">
+                    <div class="foods-success-title">
+                        <span class="food-name">菜名</span>
+                        <span class="food-name">类别</span>
+                        <span class="food-img">效果图</span>
+                        <span class="food-introduce">说明</span>
+                        <span class="food-down">撤销</span>
+                    </div>
+                    <div class="foods-content-lists">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="../js/jquery-2.1.0.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/fontrem.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/haidilao.system.js"></script>
+<script src="../register/js/outlogin.js"></script>
+<script src="../js/system.js" ></script>
+</html>

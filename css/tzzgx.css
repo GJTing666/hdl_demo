@@ -1,0 +1,105 @@
+.tup{
+	margin: 0 auto;
+    max-width: 19.20rem;
+}
+img{
+	max-width:100%;
+	max-height:100%
+}
+.investor1{
+	line-height: 48px;
+    /* margin-left: 75px; */
+    /* width: 100%; */
+    padding-top: 50px;
+	padding-left: 75px;
+	width: 20%;
+}
+.investor1-1.in{
+	color: red;
+}
+.investor1-1:hover{
+	cursor: pointer;
+	color: red;
+}
+.row{
+	margin-top: 50px;
+	line-height: 48px;
+	width: 75%;
+    float: right;
+}
+.row1.in{
+	display: block;
+}
+.row1{
+	border-left: 1px solid #E0E0E0;
+    padding-left: 100px;
+    display: none;
+    width: 100%;
+}
+.row1-1{
+	border-bottom:1px solid #E0E0E0;
+}
+.row1-2{
+	color: red;
+}
+.row2{
+	position: fixed;
+    right: 2%;
+    z-index: 10000;
+    bottom: 50%;
+    margin-bottom: -195px;
+}
+.row2-1-1 li{
+	width: 50px;
+    height: 50px;
+    background: #feecec;
+    margin: 10px 0;
+    border-radius: 50%;
+    text-align: center;
+}
+li {
+	list-style: none;
+}
+.row2-1-1 a{
+	display: block;
+    padding: 8px 0;
+    line-height: 16px;
+	cursor: pointer;
+    text-decoration: none;
+}
+.row1 a{
+	cursor: pointer;
+	text-decoration: none;
+	color: red;
+}
+
+
+
+/*小于1000px屏幕的网页*/
+@media screen and (max-width: 1000px) {
+    .investor1-1{
+	    width: 33%;
+	}
+	.investor1-1{
+		float:left;
+		width:33%;
+	}
+    .row1{
+    	width:100%;
+    }
+    .investor1{
+	/*line-height: 48px;
+ 	margin-left: 75px;*/
+ 	width: 100%;
+	}
+ }   
+   
+   
+ 
+ 
+ /*小于750px屏幕的网页*/  
+@media screen and (max-width: 750px) {
+    .investor1-1{
+	    width: 50%;
+	}
+}

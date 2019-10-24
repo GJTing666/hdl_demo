@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/HappyCard.css"/>
+		<link rel="shortcut icon" href="../img/2019071509194486593.ico" type="image/x-icon" />
+		<title>欢乐卡</title>
+	</head>
+	<body>
+		<!-- 全局背景 -->
+		<div class="dl">
+			<div class="dl_01">
+				<div class="dl_logo">
+					<!-- logo图片 -->
+					<img src="../img/mfs/2019071713424793214.png" >
+				</div>
+				
+				<!-- 下半部分 -->
+				<div class="dl_content">
+					
+					<!-- 左边申明卡部分 -->
+					<div class="ShenMing">
+						<img src="../img/mfs/5.jpg" >
+					</div>
+					
+					<!-- 右边查询入口 -->
+					<div class="dl_cc">
+
+						<!-- form -->
+					<form class="card-form">
+						<div class="dl_c2">
+							<div class="hdl_01">
+								查询入口
+							</div>
+							
+							<!-- 判断输入框是否为默认值 返回为空 -->
+							<div class="hdl_02">
+								<input name="cardhao" type="text" class="cardhao"  placeholder="请输入您的卡号"
+								onfocus="if (value =='请输入您的卡号'){value =''}" 
+								onblur="if (value ==''){value='请输入您的卡号'}" />
+							</div>
+							
+								<!-- 判断输入框是否为默认值 返回为空 -->
+							<div class="hdl_02">
+								<input name="cardword"  type="text" class="cardword" placeholder="请输入您的密码" 
+								onfocus="if (value =='请输入您的密码'){value =''}" 
+								onblur="if (value ==''){value='请输入您的密码'}" />
+							</div>
+							
+							<!-- 账户密码输入错误弹出内容框 -->
+							<div class="hdl_03">
+								<span class="s_03">您输入的账户或密码不正确，请重新输入。</span>
+								<span class="s_033">请先输入登录用户或密码。</span>
+							</div>
+							
+							<!-- 登录退出 -->
+							<div class="hdl_05">
+								<!-- 登录 -->
+								<div class="hdl_06">
+									<!-- &nbsp表示空格 -->
+									<a class="denl">登&nbsp录</a>
+								</div>
+								<!-- 退出 -->
+								<input type="button" class="close"  value="退 出" onclick="window.location.href = '../index.html'" />
+			
+							</div>
+							
+						</div>
+					</form>
+						
+						<!-- 页底图片 -->	
+						<div class="hdl_c3">
+							<img src="../img/mfs/dl_6.gif" >
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<script src="../js/fontrem.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery-2.1.0.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/HappyCard.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<script src="../js/md5.js"></script>

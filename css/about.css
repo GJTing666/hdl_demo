@@ -1,0 +1,525 @@
+
+.about-titleImg{
+	margin: 0 auto;
+	max-width: 19.20rem;
+}
+.about-titleImg img{
+	max-width: 100%;
+}
+.about-video{
+	max-width: 12rem;
+	margin: 0.4rem auto;
+	position: relative;
+	transition: 0.6s;
+}
+.about-video video{
+	width: 100%;
+}
+.videoBig{
+	display: none;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index:1000;
+    background: #000;
+}
+.videoBig video{
+	display: block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.about-video .about-video-mask{
+	position:absolute;
+	z-index:2;
+	top:0;
+	bottom:0.04rem;
+	width: 100%;
+	background-color: black;
+	opacity: 0.2;
+	cursor: pointer;
+}
+.about-video .about-video-title{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 100%;
+}
+.about-video .about-video-title p{
+	font-size: 0.2rem;
+	color: white;
+}
+.about-video .about-video-title h2{
+	font-weight: bold;
+	color: white;
+}
+.about-video .about-video-title h2 span{
+	font-size: 0.4rem;
+}
+.about-haidilaoBrand{
+	max-width: 12rem;
+	text-align: center;
+	padding-top: 0.60rem;
+	margin: 0 auto;
+	margin-top: 0.80rem;
+	position: relative;
+}
+.about-haidilaoBrand .about-haidilaoBrand-text{
+	color: #666;
+	padding-top: 0.40rem;
+	font-size: 0.16rem;
+}
+.about-haidilaoBrand-text a{
+	text-decoration: none;
+	color: red;
+}
+.about-haidilaoIdea{
+	padding: 0.60rem 0;
+}
+.about-haidilaoIdea .about-haidilaoIdea-tip{
+	width: 23.5%;
+	display: inline-block;
+	height: 3.68rem;
+	position: relative;
+	transition: 0.6s;
+}
+.about-haidilaoIdea-tip.active{
+	margin-left: 1.5%;
+	transition: 0.6s;
+}
+.about-haidilaoIdea-tip .about-front{
+	position: absolute;
+	top: 0;
+	border-radius: 0.05rem;
+	transform: perspective(5rem) rotateY(0deg);
+	backface-visibility: hidden;
+	transition: transform 0.6s linear;
+	height: 100%;
+	width: 100%;
+}
+.about-haidilaoIdea-tip .about-front img{
+	width: 100%;
+	height: 100%;
+}
+.about-haidilaoIdea-tip .about-back{
+	box-sizing: border-box;
+	border: 0.01rem solid #e60012;
+	border-radius: 0.05rem;
+	padding: 0.2rem;
+	background:#fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	transform: perspective(5rem) rotateY(-180deg);
+	backface-visibility: hidden;
+	transition: transform 0.6s linear;
+	overflow: hidden;
+}
+.about-haidilaoIdea-tip .about-front .brand{
+	position: absolute;
+	bottom: 0;
+	height: 0.40rem;
+	line-height: 0.40rem;
+	background: rgba(230, 0, 18, .6);
+	width: 100%;
+	margin: 0;
+	color: white;
+}
+.about-haidilaoIdea-tip .about-back .title{
+	color: #e60012;
+	font-size: 0.18rem;
+	text-align: left;
+}
+.about-haidilaoIdea-tip .about-back .summry{
+	color: #666666;
+	font-size: 0.14rem;
+	line-height: 0.20rem;
+	text-align: left;
+	text-indent: 0.2rem;
+}
+.about-haidilaoIdea-tip .about-back .gohaidilao{
+	color:#e60012;
+	text-align: left;
+	text-decoration: none;
+	font-size: 0.16rem;
+}
+.about-haidilaoIdea-tip:hover > .about-front{
+	transform: perspective(5rem) rotateY(180deg);
+}
+.about-haidilaoIdea-tip:hover > .about-back{
+	transform: perspective(5rem) rotateY(0deg);
+}
+/* 轮播 */
+.haidilaoBanner{
+	max-width: 12.00rem;
+	margin-top: 0.3rem;
+}
+.haidilaoBanner .item-img{
+	width: 55%;
+	transition: 0.6s;
+}
+.haidilaoBanner .item-text{
+	width: 40%;
+	transition: 0.6s;
+	/* padding: 0.3rem; */
+}
+.haidilaoBanner .item-text .title{
+	color: #e60012;
+	font-size: 0.24rem;
+	text-align: left;
+	margin-top: 0.3rem;
+}
+.haidilaoBanner .item-text .title-content{
+	text-indent: 0.2rem;
+	text-align: left;
+	font-size: 16px;
+    color: #b5b5b6;
+    line-height: 32px;
+    margin-top: 30px;
+}
+.haidilaoBanner .item-img img{
+	width: 100%;
+	height: 100%;
+}
+.banner-left,.banner-right{
+	display:inline-block;
+}
+.banner-btn .btn-left,
+.banner-btn .btn-right{
+	display: inline-block;
+	height: 0.28rem;
+	width: 0.28rem;
+}
+.banner-btn .banner-number{
+	display: inline-block;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	font-size: 20px;
+}
+.banner-btn .btn-left{
+	background: url("../img/about/2019071816270569034.png") no-repeat center center;
+}
+.banner-btn .btn-left:hover{
+	background: url("../img/about/2019071816340469545.png");
+}
+.banner-btn .btn-right{
+	background: url("../img/about/2019071816275563096.png") no-repeat center center;;
+}
+.banner-btn .btn-right:hover{
+	background: url("../img/about/2019071816342053303.png");
+}
+.about-banner{
+	position: relative;
+}
+.about-banner .banner-btn{
+	position: absolute;
+	bottom:1%;
+	right: 30%;
+}
+/* 媒体中心 */
+.baoutMedia{
+	overflow: hidden;
+}
+.baoutMedia-content{
+	width: 32%;
+	padding: 0.24rem;
+	display: inline-block;
+	transition: 0.6s;
+}
+.baoutMedia-content .left{
+	width: 0.75rem;
+}
+.baoutMedia-content .right{
+	width:calc(100% - 0.90rem);
+	text-align: left;
+}
+.baoutMedia-content .right p{
+	overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+}
+.baoutMedia-content a{
+	text-decoration: none;
+}
+/* about - second */
+.about-haidilaoList{
+	display: inline-block;
+    width: 1.72rem;
+    height: 0.46rem;
+    background: transparent;
+    border-radius: 0.46rem;
+    font-size: 0.20rem;
+    color: #888;
+    line-height: 0.46rem;
+	text-align: center;
+	transition: 0.6s;
+}
+.about-haidilaoList.tab{
+	background-color: #e60012;
+	color: white;
+}
+.about-haidilaoCulture{
+	position: relative;
+	text-align: center;
+}
+.about-haidilaoCulture-list{
+	display: none;
+}
+.about-haidilaoCulture-list.tab{
+	display: block;
+}
+.about-haidilaoCulture-img{
+	width: 60%;
+	transition: 0.6s;
+}
+.about-haidilaoCulture-img img{
+	width: 100%;
+	height: 100%;
+}
+.about-haidilaoCulture-text{
+	width: 33%;
+	transition: 0.6s;
+}
+/* 品牌故事 */
+.about-haidilaoHistory{
+	position: relative;
+}
+.about-haidilaoHistory p{
+	margin: 0;
+	text-indent: 0.4rem;
+}
+.about-haidilaoHistory-time{
+	background: url("../img/about/2019073018370630007.png") repeat-y top center;
+}
+.about-haidilaoHistory-time .time-year{
+	font-size: 0.12rem;
+	color: #666;
+	display: block;
+}
+.time-year .time-year-left,
+.time-year .time-year-right
+{
+	width: 51%;
+}
+.time-year .time-year-right
+{
+	margin-top: -1.75rem;
+}
+.time-year .time-year-left .top{
+	background: url("../img/about/2019073018472611200.png");
+	font-size: 0.25rem;
+	color: #e60012;
+	background-repeat: no-repeat;
+	line-height: 0.30rem;
+	background-position: right center;
+	margin: 0;
+	padding: 0.25rem 0.4rem 0.25rem 0;
+}
+.time-year .time-year-right .top{
+	background: url("../img/about/2019073018472611200.png");
+	font-size: 0.25rem;
+	color: #e60012;
+	background-repeat: no-repeat;
+	line-height: 0.30rem;
+	background-position: left center;
+	margin: 0;
+	padding: 0.25rem 0.4rem 0.25rem 0.4rem;
+}
+.time-year .time-year-left .mid{
+	padding: 0 0.4rem 0 0;
+	margin: 0;
+}
+.time-year .time-year-right .mid{
+	padding: 0 0 0 0.4rem;
+	margin: 0;
+}
+.time-year .time-year-left .bottom,
+.time-year .time-year-right .bottom{
+	padding: 0.12rem 0.4rem;
+	margin: 0;
+	color: #666;
+}
+.time-year .time-year-left .bottom.more,
+.time-year .time-year-right .bottom.more{
+	padding-bottom: 0;
+}
+.time-year .time-year-left .bottom-I,
+.time-year .time-year-right .bottom-I{
+	padding: 0 0.4rem;
+	margin: 0;
+	color: #666;
+}
+.time-year .time-year-left .mid img,
+.time-year .time-year-right .mid img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+/* about fourth */
+.about-haidilaoVision{
+	width: 100%;
+	transition: 0.6s;
+}
+.about-haidilaoVision-img{
+	width: 50%;
+}
+.about-haidilaoVision-img img{
+	width: 100%;
+	height: 100%;
+}
+.about-haidilaoVision-text{
+	width: 48%;
+}
+.about-haidilaoVision-text-box{
+	position: relative;
+	margin: 0 auto;
+}
+.about-haidilaoHistory-honor{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+	
+}
+.about-haidilaoHistory-honor ul{
+	width: 1000rem;
+	position: relative;
+	left:0;
+	border-bottom:1px solid #ccc;
+	transition: all 1s;
+}
+.about-haidilaoHistory-honor .history-lists{
+	width: 3rem;
+	position: relative;
+}
+.about-haidilaoHistory-honor .history-lists .history-years{
+	font-size: 0.25rem;
+	color: #e60012;
+	background: url(../img/about/2019073119330092021.jpg) no-repeat 10px top;
+	padding: 0 0.5rem;
+}
+.about-haidilaoHistory-honor .history-lists .history-text{
+	background: url(../img/about/2019073119214315512.jpg) repeat-y 20px top;
+	padding:0.12rem 0 0.12rem 0.5rem;
+}
+.text-center .left{
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.45rem;
+	background: url(../img/about/2019073118312559381.png) no-repeat center;
+}
+.text-center .left:hover{
+	background: url(../img/about/2019080110521394536.png) no-repeat center;
+}
+.text-center .right{
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.45rem;
+	background: url(../img/about/2019073118322018007.png) no-repeat center;
+}
+.text-center .right:hover{
+	background: url(../img/about/2019080110523635827.png) no-repeat center;
+}
+/* 媒体中心 */
+.about-meida-img{
+	width: 25%;
+	height: 1.61rem;
+	overflow: hidden;
+}
+.about-meida-img img{
+	width: 100%;
+	height: 1.60rem;
+}
+.about-meida-content{
+	width: 70%;
+	height: 1.61rem;
+	overflow: hidden;
+}
+.about-meida-content .title{
+	padding-bottom: 0.15rem;
+	border-bottom:1px solid #888;
+}
+/*响应式 */
+@media only screen and (max-width: 1440px){
+	.about-haidilaoHistory{
+		width: 80%;
+	}
+	.about-video .about-video-title p{
+		font-size: 0.18rem;
+	}
+	.about-video{
+		max-width: 92%;
+	}
+	.haidilaoBanner{
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 0.3rem;
+	}
+}
+@media only screen and (max-width: 1200px){
+	.time-year .time-year-left, .time-year .time-year-right{
+		text-align: left;
+		float: right;
+	}
+	.time-year .time-year-left .top{
+		background-position: left center;
+		padding: 0.25rem 0.4rem 0.25rem 0.4rem;
+	} 
+	.time-year .time-year-left .mid{
+		padding: 0 0 0 0.4rem;
+	}
+	.time-year .time-year-right{
+		margin-top: 0;
+	}
+}
+@media (max-width:900px){
+	.about-haidilaoIdea .about-haidilaoIdea-tip{
+		width: 46%;
+		margin: 1%;
+	}
+	.haidilaoBanner .item-img,
+	.haidilaoBanner .item-text{
+		width: 100%;
+	}
+	.about-banner .banner-btn {
+		bottom: 0;
+		right: 10%;
+	}
+	.baoutMedia-content{
+		width: 100%;
+	}
+	.about-video{
+		max-width: 92%;
+	}
+	.haidilaoBanner,
+	.about-haidilaoVision{
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 0.3rem;
+	}
+	.about-video .about-video-title p{
+		font-size: 0.14rem;
+	}
+	.about-haidilaoList{
+		width: 45%;
+	}
+	.about-haidilaoCulture{
+		width: 92%;
+	}
+	.about-haidilaoCulture-img,
+	.about-haidilaoCulture-text,
+	.about-haidilaoVision-img,
+	.about-haidilaoVision-text{
+		width: 100%;
+	}
+	.about-haidilaoVision-text-box{
+		margin-top: 0.4rem;
+	}
+}

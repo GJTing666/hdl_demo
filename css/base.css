@@ -1,0 +1,564 @@
+
+/* 顶部 */
+/* 小屏列表 start */
+/* .smaNav-lists.active{
+	display: block;
+} */
+
+.smaNav-lists{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #E60012;
+	top: -2.8rem;
+	opacity: 0;
+	/* display: none; */
+}
+
+.smaNav-lists .smaNav-list{
+	height: .4rem;
+	color: #666;
+	padding: 0 .24rem;
+}
+
+.smaNav-lists .smaNav-list .smaNav-cont{
+	line-height: .4rem;
+	width: 80%;
+	color: #888;
+	display: inline-block;
+}
+
+.smaNav-lists .smaNav-list .add{
+	background: url(../img/greatFood/2019071115171529476.png) no-repeat center center;
+    width: .32rem;
+    height: .4rem;
+	cursor: pointer;
+}
+/* 小屏列表 end */
+
+/* 主导航 */
+.navbar{
+	min-height: .86rem;
+}
+.sea-top {
+	position: fixed;
+	height: 1.28rem;
+	text-align: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 500;
+}
+
+.sea-nav {
+	/* height: 1.06rem; */
+	position: relative;
+	font-size: .18rem;
+	background: #fff;
+	box-shadow: 0 0 .02rem #999;
+	z-index: 600;
+}
+
+.sea-nav .navbar-collapse {
+	padding: 0;
+	height: 100% !important;
+}
+
+.sea-nav .navbar-collapse .nav {
+	height: 100%;
+}
+
+.logoBox .logo{
+	display: none;
+}
+
+.sea-nav .bigLogo{
+	display: block;
+}
+
+.sea-nav .nav-item {
+	float: left;
+	cursor: pointer;
+	top: .55rem;
+	position: relative;
+}
+
+.sea-nav .nav-item .nav-item-text {
+	display: block;
+	padding: 0;
+	text-align: center;
+	width: 1.4rem;
+	font-size: .18rem;
+	line-height: .52rem;
+	color: #888;
+}
+
+.sea-nav .nav-item.in .nav-item-text{
+	font-weight: bold;
+	background: none;
+	color: #e60012;
+}
+
+/* 点击li后的样式 */
+.sea-nav .nav-item.call .nav-item-text{
+	font-weight: bold;
+	background: none;
+	color: #e60012;
+}
+
+/* 导航栏下拉菜单 start */
+.sea-nav .nav-item .slidedown{
+	display: none;
+    width: 1.6rem;
+    position: absolute;
+    left: -.15rem;
+    /* top: 1.05rem; */
+    padding-top: .1rem;
+}
+
+.nav-item .slidedown .slidedown-lists{
+	background: #fff;
+    box-shadow: 0 .03rem .05rem #ccc;
+    padding: .15rem 0;
+}
+
+.slidedown-lists .slidedown-cont{
+	text-align: left;
+    padding: 0 .15rem;
+    position: relative;
+}
+
+.slidedown-lists .slidedown-cont:hover .slidedown-txt{
+	color: #E60012;
+}
+
+.slidedown-cont .slidedown-text{
+	padding-left: .16rem;
+}
+
+.slidedown-cont .slidedown-text.on{
+	background: url(../img/greatFood/2019071511191468983.png) no-repeat 0 center;
+}
+
+.slidedown-text .slidedown-txt{
+	float: left;
+    font-size: .16rem;
+    line-height: .32rem;
+}
+
+.slidedown-text .slidedown-fuhao{
+	display: block;
+    cursor: pointer;
+	float: right;
+    width: .32rem;
+    height: .32rem;
+}
+
+.slidedown-text .slidedown-fuhao.add{
+	background: url(../img/greatFood/2019071115171529476.png) no-repeat 0 center;
+}
+
+.slidedown-text .slidedown-fuhao.del{
+	background: url(../img/greatFood/2019071115461163847.png) no-repeat 0 center;
+}
+
+.three-lists{
+	display: none;
+    position: absolute;
+    left: 160px;
+    top: -15px;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+}
+
+.three-list-cont{
+	color: #bbbbbb;
+    font-size: 14px;
+    display: block;
+    padding-left: 20px;
+    line-height: 32px;
+}
+
+.three-list-cont:hover{
+	color: #E60012;
+}
+
+/* 下拉列表 end */
+
+/* logo */
+.sea-nav .text-logo {
+	width: 3.5rem;
+	height: 1.06rem;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sea-nav .text-logo:hover {
+	background: none;
+}
+
+.sea-nav .text-logo img {
+	margin-top: .25rem;
+}
+
+/* 三个图标 */
+.head-sand {
+	position: absolute;
+	right: 50%;
+	top: .1rem;
+	margin-right: -5.77rem;
+}
+
+.head-sand .searchBox {
+	overflow: hidden;
+	width: .34rem;
+	height: .34rem;
+	float: left;
+	cursor: pointer;
+}
+
+.head-sand .searchBox img {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+	border: none;
+}
+
+.head-sand .tab-guojia {
+	float: left;
+	color: #888;
+	font-size: .16rem;
+}
+
+.head-sand .tab-guojia .guojia-text {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.head-sand .tab-guojia .guojia {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.tab-guojia .guojia img {
+	width: .34rem;
+	height: .34rem;
+	margin: 0 .04rem 0 .1rem;
+	cursor: pointer;
+}
+
+.tab-guojia .guojia .cname {
+	font-size: .14rem;
+	color: #E60012;
+	line-height: .34rem;
+
+}
+
+.head-sand .tab-guojia em {
+	width: .01rem;
+	height: .16rem;
+	background: #ccc;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 .05rem;
+}
+
+.head-sand .tab-guojia .en {
+	color: #E60012;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+/* 国家详情 */
+.tab-guojia .guojia-cont{
+	display: none;
+	z-index: 888;
+	padding-top: .6rem;
+    width: 3rem;
+    position: absolute;
+    right: 0;
+    top: .46rem;
+}
+
+.guojia-cont .cont-bg{
+	padding: .1rem;
+    border-radius: 1px;
+    box-shadow: 0 0 .03rem #999;
+    background: #fff;
+}
+
+.cont-bg .country > li{
+	padding: .05rem 0;
+    width: 50%;
+    float: left;
+}
+
+.cont-bg .country > li a{
+	display: block;
+    font-size: .14rem;
+    color: #333;
+    text-align: center;
+}
+/* 三个图标 end */
+
+/* 搜索盒子 start */
+.slideS_Box {
+	display: none;
+	width: 100%;
+	padding: .4rem 0;
+	box-shadow: 0 0 5px rgba(113, 111, 111, .8);
+	background: rgba(229, 0, 18, .85);
+}
+
+.slideS_Box .search_box {
+	display: block;
+	width: 4.75rem;
+	margin: 0 auto;
+	border: 1px solid #fff;
+	border-radius: .5rem;
+	position: relative;
+}
+
+.slideS_Box .content {
+	position: relative;
+}
+
+.search_box .search_input {
+	background: transparent;
+	width: 4rem;
+	border: none;
+	height: .64rem;
+	line-height: .64rem;
+	float: left;
+	text-indent: .25rem;
+	color: #eee;
+	font-size: .16rem;
+}
+
+.search_box input::placeholder {
+	color: #fff;
+}
+
+.search_box .search_button {
+	width: .64rem;
+	height: .64rem;
+	background: transparent url(../img/greatFood/search1.png) no-repeat center center;
+	border: none;
+	float: right;
+}
+
+.slideS_Box .search_close {
+	width: .64rem;
+	height: .64rem;
+	background: url(../img/greatFood/guanbi.png) no-repeat center center;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -.32rem;
+	cursor: pointer;
+}
+/* 搜索盒子 end */
+
+/* 小屏头部 */
+.sea-navbar .navbar-header {
+	position: absolute;
+	right: .16rem;
+	top: .2rem;
+	display: none;
+}
+
+/* 右侧边栏 start */
+.hdl-slide {
+	position: fixed;
+	right: 2%;
+	z-index: 480;
+	bottom: 50%;
+	margin-bottom: -1.95rem;
+}
+
+.hdl-slide-lists .slide-list {
+	width: .5rem;
+	height: .5rem;
+	background: #feecec;
+	margin: .1rem 0;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.hdl-slide-lists .slide-list:hover{
+	background: #ef0114;
+    box-shadow: 0 0 .1rem #ccc;
+}
+
+.hdl-slide-lists .slide-list:hover a{
+	color: #fff;
+}
+
+.hdl-slide-lists .slide-list .slide-list-cont {
+	display: block;
+	padding: .08rem 0;
+	line-height: .16rem;
+	font-size: .1rem;
+	color: #333;
+	opacity: ;
+}
+/* 右侧边栏 end */
+
+/* 底部 */
+/* 上部分 start */
+.footer .up {
+	background: #282828;
+	padding: .6rem 0;
+}
+
+.footer .foot-lists {
+	width: 14.2%;
+	float: left;
+	margin: 0;
+}
+
+.footer .foot-lists li:first-child {
+	margin-bottom: .1rem;
+}
+
+.foot-lists a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.foot-lists .list-title {
+	font-size: .16rem;
+	color: #888;
+	margin-bottom: .1rem;
+}
+
+.foot-lists .list-cont {
+	font-size: 14px;
+	line-height: 32px;
+	color: #666;
+}
+
+/* 下部分 stsrt */
+.footer .down {
+	background: #fff;
+	padding: .3rem 0;
+}
+
+.footer .down .down-addr {
+	font-size: .16rem;
+	color: #888;
+	line-height: .49rem;
+	margin-right: .2rem;
+}
+
+.footer .down .TOU {
+	font-size: .16rem;
+	color: #888;
+	line-height: .49rem;
+	margin: 0 .05rem;
+}
+
+.shareBox .share-sina,
+.shareBox .share-weixin,
+.shareBox .share-qq {
+	display: inline-block;
+	width: .48rem;
+	height: .48rem;
+	margin-top: 0;
+}
+
+.shareBox .share-sina {
+	padding: 0;
+	background: url(../img/greatFood/sina.png) no-repeat center center;
+}
+
+.shareBox .share-weixin {
+	padding: 0;
+	background: url(../img/greatFood/weixin.png) no-repeat center center;
+}
+
+.shareBox .share-qq {
+	padding: 0;
+	background: url(../img/greatFood/qq.png) no-repeat center center;
+}
+
+@media only screen and (max-width:1200px) {
+	.content{
+		width: 92%;
+		margin: 0 auto;
+	}
+	
+	.sea-nav .logoBox{
+		padding: .2rem 3% 0;
+	}
+	
+	.sea-nav .logoBox .logo{
+		display: block;
+		float: left;
+	}
+	
+	.head-sand{
+		position: static;
+		right: auto;
+		top: auto;
+		float: right;
+		margin: 0;
+		margin-top: .06rem;
+	}
+	
+	.sea-nav .bigLogo{
+		display: none;
+	}
+	
+	.sea-nav .nav-item{
+		top: 0;
+		width: 16.6666%;
+	}
+	
+	.sea-nav .nav-item .nav-item-text{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.navbar{
+		min-height: 50px;
+		margin-bottom: .19rem;
+	}
+	
+	.head-sand{
+		position: absolute;
+		top: .12rem;
+		right: .72rem;
+	}
+	
+	.sea-navbar .navbar-header{
+		display: block;
+	}
+	
+	.sea-nav .logoBox{
+		padding: .12rem;
+		background: #fff;
+		position: relative;
+		z-index: 500;
+	}
+	
+	.content{
+		width: auto;
+	}
+	
+	.sea-nav .logoBox .logo{
+		width: 1.5rem;
+	}
+	
+	.sea-nav .logoBox .logo img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+
+

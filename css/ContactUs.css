@@ -1,0 +1,392 @@
+.head{
+	width: 100%;
+	height: 1.06rem;
+	background: gray;
+}
+.hdl_erjiPage{
+	padding: 0;
+}
+
+.hdl_erjiPage img{
+	width: 100%;
+	height: ;
+}
+
+.hdl_erjiPage02{
+	
+	padding: 1rem 0.4rem 0.2rem;
+}
+.hdl_erjiPage03{
+	float: left;
+	width: 100%;
+	height: 4.98rem;
+	position: relative;
+	
+}
+.hdl_erjiPage031 img{
+	width: 50%;
+	height: 4.47rem;
+}
+.hdl_erjiPage032{
+	width: 2.38rem;
+	height: 2.38rem;
+	background:url(../img/mfs/jrhdl_imgbg.png) no-repeat;
+	position: absolute;
+	background-size: 100%;
+    right: 5.6rem;
+    bottom: 0;
+	z-index: -1;
+}
+.hdl_erjiPage04{
+	width: 50%;
+	height: 2.6rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.hdl_erjiPage041{
+	width: 100%;
+	height: 0.57rem;
+}
+.hdl_erjiPage041 h2{
+	height: 57px;
+	font-size: 28px;
+	color: #666666;
+	background: url(../img/mfs/meun_bg1.png) no-repeat left top;
+	padding-left: 18px;
+	line-height: 50px;
+}
+
+.hdl_erjiPage042{
+	padding: 30px 0 0 0;
+	line-height: 32px;
+	font-size: 16px;
+	color: #888888;
+}
+
+.hdl_erjiPage043{
+	width: 200px;
+    line-height: 35px;
+    border: 1px solid #e60012;
+    border-radius: 45px;
+    text-align: center;
+    margin-top: 30px;
+}	
+
+.hdl_erjiPage043 a{
+	display: block;
+    font-size: 16px;
+    color: #e60012;
+}
+
+.hdl_erjiPage05{
+	background: #f7f7f7 url(../img/mfs/2019073011001320897.jpg)
+	no-repeat center center;
+    padding-top: 60px;
+	width: 100%;
+	height: 5.7rem;
+}
+
+.hdl_erjiPage051{
+	max-width: 1200px;
+	margin: 0 auto
+}
+
+.hdl_erjiPage051 h2{
+	height: 57px;
+    font-size: 28px;
+    color: #666666;
+    background: url(../img/mfs/meun_bg1.png) no-repeat left top;
+    padding-left: 18px;
+    line-height: 50px	
+}
+.box{
+	float: left;
+	width: 5.7rem;
+	height: 0.75rem;
+	margin-top: 0.5rem;
+	margin-left:0.2rem ;
+}
+
+
+
+.box img{
+	display: inline-block;
+}
+.box1{
+	float: left;
+	width: 0.75rem;
+	height: 0.75rem;
+}
+.box2{
+	float: left;
+	width: 4.3rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	margin-left: 0.1rem;
+	font-size: 22px;
+	color: #666666;
+}
+.box2 a{
+	font-size: 22px;
+	color: #666666;
+}
+
+.Customer{
+	margin-top: 0.5rem;
+	float: left;
+	width: 5.1rem;
+	height: 1.2rem;
+	margin-left: 0.21rem;
+	
+}
+
+.CustomerImg{
+	float: left;
+	height: 0.75rem;
+	width: 0.75rem;
+}
+.Customer_text{
+	float: right;
+	width: 4rem;
+	height: 1.2rem;
+	font-size: 0.22rem;
+	color: #666666;
+	line-height: 0.4rem;
+}
+
+.Customer_text a{
+	color: #666666;
+}
+
+.Customer_text p{
+	display: inherit;
+	margin-left: -0.26rem;
+}
+
+.FivePointed{
+	float: left;
+	width: 5rem;
+	height: 0.75rem;
+	margin-top: 0.5rem;
+	margin-left: 0.8rem;
+}
+.FivePointed_img{
+	float: left;
+	width: 0.75rem;
+	height:100%;
+}	
+.FivePointed_text{
+	float: left;
+	width: 1rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+}
+.FivePointed_text01{
+	float: left;
+	width: 0.3rem;
+	height: 0.75rem;
+	margin-left: 0.1rem;
+}
+
+.FivePointed_text span{
+	padding-left: 0.1rem;
+	font-size: 22px;
+	color: #666666;
+}
+
+.hdl_down{
+	margin-top: 0.5rem;
+	float: left;
+	width: 100%;
+	border-top: 1px solid #e5e5e5;
+}
+
+.hdl_down .txt{
+	line-height: 100px;
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    color: #999999;
+}
+
+.hdl_outFood{
+	padding: 0.3rem 0;
+	margin-bottom: .7rem;
+}
+
+.hdl_erjiPage051 li{
+	width: 48%;
+	
+}
+
+.hdl_card{
+	width: 48%;
+	height: 0.79rem;
+	border: 1px solid #e60012 ;
+	border-radius: 50px;
+	margin-bottom: 0.3rem;
+	padding: 1em;
+}
+
+.hdl_cardFood{
+	width: 100%;
+	height: 0.53rem;
+	padding-left: 1.75rem;
+}
+
+.hdl_cardFood .txt{
+	height: 100%;
+}
+
+.txt img{
+	padding-right: 10px;
+}
+
+.txt .top{
+	color: #e60012;
+    font-size: 20px;
+}
+
+.txt .down{
+	color: #666666;
+    font-size: 16px;
+}
+
+ 
+ 
+ /* 响应式布局 */
+ @media screen and (max-width: 1180px) {
+	 .hdl_erjiPage04 {
+    width: 100%;
+    height: 2.6rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+	margin-top: 5rem;
+	margin-top: 75%;
+ }
+	.hdl_erjiPage031 img {
+    width: 100%;
+    height: 100%;
+ }
+ 
+	.hdl_erjiPage051{
+	margin-top: 44%;
+    margin-left: 3%;
+	}
+	
+	.Customer{
+		width: 47%;
+		position: relative;
+	}
+	.FivePointed{
+		width: 100%;
+		margin-left: 31px;
+	}
+	.Customer_text{
+		left: 112px;
+    position: absolute;
+	}
+	.hdl_down .txt{
+		width: 100%;
+	}
+	.up{
+		margin-top: 40%;
+	}
+	.hdl_cardFood .txt{
+		margin-left: -117px;
+	} 
+}
+
+ @media screen and (max-width: 930px){
+	 	.up{
+	 	margin-top: 55%;
+	 }
+ }
+
+
+ @media screen and (max-width: 745px) {
+	 .hdl_card{
+		 width: 100%;
+ }
+ 
+ .up{
+	 margin-top: 85%;
+ }
+ 
+  @media screen and (max-width: 558px){
+	  .up {
+    margin-top: 200%;
+}
+	.hdl_down .txt{
+		font-size: 12px
+	}
+	.box2{
+		font-size: 18px;
+	}
+	.box2 a{
+		font-size: 18px;
+	}
+	.Customer_text{
+		font-size: 18px;
+	}
+	.hdl_cardFood .txt{
+		margin-left: -117px;
+	}
+  }
+  
+  
+   
+  @media screen and (max-width: 320px){
+	  .box{
+		  margin-left: 0px;
+	  }
+	  .box2{
+		  font-size: 12px;
+		  margin-left: 5%;
+	  }
+	  .box2 a{
+		  font-size: 12px;
+	  }
+	  .Customer {
+			margin-top: 0.5rem;
+			float: left;
+			width: 5.1rem;
+			height: 1.2rem;
+			margin-left: 4px;
+		}
+		.Customer_text{
+			font-size: 12px;
+		}
+		.FivePointed_img{
+			margin-left: -25px;
+		}
+		.FivePointed_text span {
+    padding-left: 0.1rem;
+    font-size: 12px;
+    color: #666666;
+	
+	}
+	
+	.FivePointed_text{
+		margin-left: 4%;
+	}
+	.FivePointed{
+		margin-bottom: 10%;
+	}
+	.three{
+		margin-left: 17%;
+	}
+	.hdl_down .txt{
+		line-height: 33px;
+	}
+	.up {
+		margin-top: 161%;
+	}
+	.hdl_cardFood .txt{
+		margin-left: -117px;
+	}
+}		
+	
+	

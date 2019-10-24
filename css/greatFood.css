@@ -1,0 +1,746 @@
+/* 美食主页 start */
+.greatFood-main {
+	position: relative;
+}
+
+.greatFood-content{
+	position: relative;
+}
+
+/* 轮播图片 */
+.greatFood-main img{
+	display: block;
+	width: 100%;
+}
+
+/* 轮播内容 */
+.greatFood-caption{
+	width: 40%;
+    float: right;
+    right: 10%;
+    position: absolute;
+    top: 50%;
+    z-index: 90;
+    margin-top: -265px;
+}
+
+.greatFood-title{
+	font-size: .4rem;
+	color: #666;
+}
+
+.greatFood-title span{
+	color: #E60012;
+}
+
+.greatFood-caption .readMe{
+	padding: .14rem 0;
+}
+
+.readMe .readMe-txt{
+	display: inline-block;
+    padding: .05rem .1rem;
+    background: #e60012;
+    border-radius: .03rem;
+    color: #fff;
+    font-size: .22rem;
+}
+
+.greatFood-caption .make-cont{
+	font-size: .2rem;
+    line-height: .32rem;
+    color: #666;
+}
+
+.greatFood-caption .fenlei-guodi{
+	margin: .2rem 0;
+}
+
+.fenlei-cont{
+	font-size: .2rem;
+}
+
+.fenlei-txt{
+	font-size: .2rem;
+	line-height: .32rem;
+}
+
+/* 左右按钮 */
+.greatFood-content .carousel-btn{
+	position: absolute;
+    right: 0;
+    top: 50%;
+	margin-top: 1.57rem;
+    width: 50%;
+}
+
+.glyphicon{
+	font-size: .3rem;
+	color: #E60012;
+}
+
+.carousel-num{
+	font-size: 20px;
+    color: #333333;
+    margin: 0 .1rem;
+}
+
+.carousel-num b{
+	color: #E60012;
+}
+
+.carousel-num,
+.greatFood-content .carousel-btn .slide-btn.left,
+.greatFood-content .carousel-btn .slide-btn.right{
+	float: left;
+}
+
+.carousel-btn .seeMore{
+	float: left;
+	width: 1.72rem;
+	height: .34rem;
+    border-radius: 46px;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    background: #e60012;
+    margin-left: 20px;
+}
+
+/* 侧边栏菜单美食 */
+.food-caidan{
+	width: auto;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -200px;
+    z-index: 201;
+	margin-left: -.92rem;
+}
+
+.food-caidan .caidan-outbox{
+	height: 100%;
+	padding: 0 .16rem;
+}
+
+.caidan-outbox .caidan-inbox{
+	position: relative;
+}
+
+.caidan-inbox .caidan-lists{
+	position: relative;
+}
+
+.caidan-lists .caidan-list{
+	width: .6rem;
+	height: .6rem;
+	margin-top: .16rem;
+}
+
+.caidan-lists .caidan-list:first-child{
+	margin-top: 0;
+}
+
+.caidan-lists .caidan-list.default .caidan-cont{
+	border-color: #e60012;
+    background: #fff;
+    box-shadow: 0 3px 5px #ccc;
+}
+
+.caidan-lists .caidan-list:hover .caidan-cont{
+	border-color: #e60012;
+    background: #fff;
+    box-shadow: 0 3px 5px #ccc;
+}
+
+.caidan-lists .caidan-cont{
+	width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .85);
+    border: 1px solid transparent;
+    box-shadow: 1px .04rem .06rem #ccc;
+	position: relative;
+}
+
+.caidan-lists .caidan-cont p{
+	text-align: center;
+}
+
+.caidan-img{
+	margin-top: 8px;
+}
+
+.caidan-lists .caidan-cont p a{
+	display: block;
+    font-size: .1rem;
+    color: #333;
+    line-height: .16rem;
+}
+
+.caidan-lists .caidan-cont p a img{
+	width: .25rem;
+	height: .25rem;
+	display: initial;
+}
+
+/* .caidan-txt{
+	transition: all 0.5s ease-out 0s;
+} */
+
+/* 菜单按钮 */
+.food-caidan .showCaidan{
+	display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    margin-top: -25px;
+	/* infinite 无限次播放 */
+    animation: run 1s infinite;
+    transform: scale(.8, .8);
+	cursor: pointer;
+}
+
+@keyframes run
+{
+	from {
+		width: .37rem;
+		height: .37rem;
+	}
+	to{
+		width: .45rem;
+		height: .45rem;
+	}
+}
+
+/* 美食界面 end */
+
+/* 锅底 start */
+/* 锅底内容样式 */
+.guodi-content .guodi-inbox{
+	padding: .4rem 0;
+}
+
+/* display:list-item : 为元素内容生成一个块型盒，随后再生成一个列表型的行内盒。 */
+.guodi-inbox .guodi-lists .guodiList-cont{
+	display: list-item;
+    width: 30%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 1.6666666666666666666%;
+}
+
+/* li内容样式 */
+.guodiList-cont .guodi-inside{
+	position: relative;
+	top: 0;
+}
+
+.guodi-inside .pawpawItem-white{
+	position: absolute;
+	top: .2rem;
+	left: .2rem;
+	z-index: 80;
+	font-size: .2rem;
+	color: #fff;
+    line-height: .45rem;
+}
+
+.guodiList-cont .guodi-outside{
+	display: block;
+	transition: bottom 0.6s ease-out 0s;
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    background: #e60012 url(../img/greatFood/2019071710033183623.png) no-repeat right bottom;
+}
+
+.guodiList-cont .guodi-outside.active{
+	bottom: 0;
+}
+
+.guodi-outside .gdOutside-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.gdOutside-box .s-guodi-img{
+	display: block;
+	width: 1.85rem;
+	height: 1.85rem;
+	border-radius: 50%;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: .02rem;
+	right: -.18rem;
+	z-index: -1;
+}
+
+.gdOutside-box .gdOutside-cont{
+	padding: .24rem;
+}
+
+.gdOutside-cont .gdOutside-title{
+	color: #fff;
+	line-height: .48rem;
+	font-size: .24rem;
+}
+
+.gdOutside-cont .gdOutside-text{
+	margin: .12rem 0;
+}
+
+.gdOutside-cont .gdOutside-text span{
+	display: inline-block;
+	padding: .05rem .1rem;
+	background: #fff;
+	color: #E60012;
+	border-radius: .03rem;
+	font-size: .16rem;
+}
+
+.gdOutside-cont .gdOutside-txt{
+	font-size: .16rem;
+    line-height: .32rem;
+    color: #fff;
+	/* 实现两端对齐文本效果。 */
+    text-align: justify;
+}
+
+.gdOutside-cont .gdOutside-area{
+	font-size: .18rem;
+    color: #fff;
+    margin: .18rem 0;
+    text-align: justify;
+}
+
+/* 加载更多按钮 */
+.guodi-inbox .moreBtn{
+	width: 1.5rem;
+    height: .36rem;
+    background: #e60012;
+    border-radius: .36rem;
+    font-size: .16rem;
+    color: #fff;
+    line-height: .36rem;
+    text-align: center;
+    margin: .2rem auto 0;
+    cursor: pointer;
+}
+/* 锅底 end */
+
+/* 涮菜 start */
+/* 涮菜内容样式 */
+.shuaicai-content .guodi-inbox{
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+}
+
+.chuanCai-foods{
+	display: none;
+}
+
+.chuanCai-foods.in{
+	display: block;
+}
+
+.shuaicai-content .shuanCai-box{
+	padding: .3rem 0;
+    width: 100%;
+    background: #fff;
+    z-index: 200;
+}
+
+.shuanCai-main .shuanCai-cont{
+	display: inline-block;
+    width: 1.45rem;
+    height: .46rem;
+    background: transparent;
+    border-radius: .46rem;
+    font-size: .2rem;
+    color: #888;
+    line-height: .46rem;
+    text-align: center;
+}
+
+.shuanCai-main .shuanCai-cont.in{
+	color: #fff;
+    background: #e60012;
+}
+
+.shuaicai-content .guodi-outside{
+	bottom: -3.52rem;
+	height: 3.52rem;
+	background: url(../img/greatFood/2019071910490152291.png) no-repeat top center;
+}
+
+.foodLists .guodiList-cont.up .guodi-inside{
+	top: -1.15rem;
+}
+
+.foodLists .guodiList-cont.up .guodi-outside{
+	bottom: 0;
+}
+
+/* 涮菜 start */
+
+/* 食品安全 start */
+.fs-banner{
+	width: 100%;
+}
+
+.banner-box img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.fs-content{
+	width: 100%;
+	position: relative;
+}
+
+.fs-content .fsCont-box{
+	padding: .8rem 0 .9rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* 左边 */
+.fsCont-l{
+	padding: 0 0 0 .6rem;
+}
+
+.fsCont-l .fsCont-l-box{
+	width: 2.37rem;
+}
+
+.fsCont-l .fsCont-title{
+	height: .57rem;
+    color: #666666;
+    padding-left: .18rem;
+    line-height: .50rem;
+}
+
+.fsCont-l .fsCont-lists{
+	padding: .13rem 0 0 .18rem;
+}
+
+.fsCont-lists .fsCont-list.on .fsCont-item{
+	color: #e60012;
+}
+
+.fsCont-lists .fsCont-item{
+	line-height: .48rem;
+    color: #666;
+}
+
+/* .fsCont-lists .fsCont-item.on{
+	color: #e60012;
+} */
+
+/* 右边 */
+.fsCont-r{
+	width: 8.95rem;
+    padding-left: .5rem;
+    border-left: 1px solid #e0e0e0;
+    min-height: 5rem;
+    margin-top: .1rem;
+}
+
+.fsCont-r .fsR-cont{
+    color: #888888;
+    margin-bottom: .6rem;
+}
+
+.fsCont-r .fsR-cont p{
+    color: #888888;
+    line-height: .4rem;
+}
+
+.fsCont-r .fsR-cont p a{
+	color: #888888;
+}
+
+/* 公告列表 */
+.fsCont-r-box{
+	display: none;
+}
+
+.fsCont-r-box.on{
+	display: block;
+}
+.fsCont-r-box .fsNotice-lists{
+	padding-bottom: .6rem;
+}
+
+.fsCont-r-box .fsNotice-lists > li {
+	padding: .15rem 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.fsNotice-lists > li > a{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+.fsNotice-lists > li > em{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+.fsNotice-lists > li > span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: .3rem;
+}
+
+.fsNotice-lists > li a{
+	width: 80%;
+}
+
+.fsNotice-lists .fsNotice-cont{
+    height: .3rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	color: #888;
+}
+
+.fsNotice-lists .fsNotice-time{
+    color: #999;
+    padding-right: .4rem;
+}
+
+/* 公告详情 */
+.fsDetail .fsDetail-main{
+	width: 100%;
+	background: url(../img/greatFood/2019080319242483250.png) no-repeat top center;
+}
+
+.fsDetail-main .fsDetail-wrap{
+	width: 90%;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+
+.fsDetail-wrap .fsDetail-title h1{
+	font-size: .34rem;
+    color: #666;
+    line-height: .3rem;
+}
+
+.fsDetail-title h1 i{
+	display: inline-block;
+    width: .15rem;
+}
+
+.fsDetail-title h1 i.l{
+	margin-right: 10px;
+}
+
+.fsDetail-title h1 i.r{
+	margin-left: 10px;
+}
+
+.fsDetail-title .date{
+	margin: .2rem 0;
+    color: #888;
+}
+
+.fsDetail-wrap .fsDetail-cont{
+	min-height: 4.5rem;
+}
+
+.fsDetail-cont *{
+	font-size: 16px;
+    line-height: 200%;
+    color: #888;
+}
+
+.fsDetail-cont p{
+	min-height: .15rem;
+}
+
+.fsDetail-wrap .fsDetail-btn{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.fsDetail-btn .prev{
+	height: .7rem;
+}
+
+.fsDetail-btn .prev .btn-txt,
+.fsDetail-btn .next .btn-txt{
+	line-height: .24rem;
+    font-size: .16rem;
+    color: #444;
+    display: block;
+    padding: .23rem 0;
+}
+
+.fsDetail-btn .prev .btn-txt{
+	padding-left: .8rem;
+    background: url(../img/greatFood/2019072313095230011.jpg) no-repeat 0 center;
+}
+
+.fsDetail-btn .next .btn-txt{
+	padding-right: .8rem;
+	background: url(../img/greatFood/2019072313102639997.jpg) no-repeat right center;
+}
+
+
+
+
+/* 食品安全 end */
+
+/* 蘸料 start */
+/* 蘸料样式 */
+.zhanLiao-content{
+	position: relative;
+}
+
+.zhanLiao-content .zl-main{
+	overflow: hidden;
+	margin-bottom: .9rem;
+}
+
+.zl-lists .zl-cont{
+	width: 25%;
+	text-align: center;
+	position: relative;
+}
+
+.zl-lists .zl-cont .zl-a{
+	display: block;
+}
+
+.zl-cont .zl-title{
+	display: block;
+	width: .85rem;
+	height: 1.08rem;
+	color: #fff;
+	/* line-height: .15rem; */
+	padding: .25rem .1rem 0;
+	z-index: 2;
+	background: url(../img/greatFood/2019071711323411464.png) no-repeat bottom center;
+	position: absolute;
+	top: .2rem;
+	left: .2rem;
+}
+
+.zl-lists .zl-cont.king .zl-title{
+	background: url(../img/greatFood/2019071711324340012.png);
+}
+
+/* 图片运动事件 */
+.zl-cont .zl-img{
+	transform: rotate(0deg);
+    transition: transform 300ms;
+}
+
+.zl-cont .zl-txt{
+    color: #666;
+}
+
+.zhanLiao-content .zl-detali-box{
+	display: none;
+}
+
+.zhanLiao-content .zl-detali-box.on{
+	display: block;
+}
+
+.zhanLiao-content .zl-detail{
+	background: #eeeff2 url(../img/greatFood/2019071711322675258.png) no-repeat right top;
+	background-size: 90%;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 1.2rem;
+}
+
+/* 元素呈现为块级表格（类似 <table>），表格前后带有换行符。 */
+.zl-table{
+	display: table;
+}
+
+/* 表格内容左 */
+.zl-table .zl-detail-l{
+	width: 50%;
+	padding: .8rem 0;
+	position: relative;
+}
+
+.zl-detail-l .img-up{
+	width: 100%;
+}
+
+.zl-detail-l .img-down{
+	width: 70%;
+    position: absolute;
+    right: .9rem;
+    top: 1.65rem;
+}
+
+/* 表格内容右 */
+.zl-table .zl-detail-r{
+	width: 48%;
+	padding-left: 2%;
+}
+
+.zl-detail-r .title{
+	/* background: url(../img/gr) no-repeat left center; */
+    line-height: .74rem;
+    padding-left: .25rem;
+    color: #e50012;
+    font-size: .36rem;
+    margin-bottom: .15rem;
+}
+
+.zl-detail-r .r-img{
+	padding-left: .25rem;
+}
+
+.zhanLiao-content .zl-goBack{
+	position: absolute;
+    left: 50%;
+    bottom: 1.8rem;
+    animation: goback 1s infinite;
+    margin-left: -.35rem;
+	z-index: 10;
+}
+
+@keyframes goback{
+	0%{
+		bottom: 1.8rem;
+	}
+	50%{
+		bottom: 1.95rem;
+	}
+	100%{
+		bottom: 1.8rem;
+	}
+}
+
+/* 蘸料 end */
+/* 
+
+$(".zl_back").click(function(){
+    $("body,html").animate({scrollTop:0},500);
+});
+}); 
+ 
+ */

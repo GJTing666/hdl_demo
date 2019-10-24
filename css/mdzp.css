@@ -1,0 +1,252 @@
+img{
+	height: 100%;
+}
+.recruit{
+	height: 496px !important;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  margin: 0 auto;
+}
+.recruit3{
+	/*设置图片为背景图*/
+	background: url(../img/yangtonghang/20.png) no-repeat;
+	width: 78px;
+	height: 78px;
+	background-size: cover;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-top: -39px;
+	cursor: pointer;
+}
+.recruit2{
+	position: fixed;
+	left: 100px;
+	top: 530px;
+	z-index: 10;
+}
+.recruit2-1{
+	margin-bottom: 50px;
+}
+.recruit2-1 img{
+	width:90px;
+	height:90px;
+}
+.recruit2-2 img{
+	width:90px;
+	height:90px;
+	border: 1px solid #292929;
+}
+.recruit2-1 p{
+	font-size: 12px;
+	color: #292929;
+}
+.recruit1-1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size:50px;
+}
+.recruit1-1-2{
+	background: #ffffff;
+	border: 1px solid #ed1b23;
+	border-radius: 16px;
+	width: 386px;
+	height: 46px;
+	text-align: left;
+	margin-top: 20px;
+}
+.recruit1-1-3{
+	background: red;
+	border-radius: 14px;
+	line-height: 50px;
+	height: 46px;
+	width: 130px;
+	margin-right: 15px;
+	text-align: center;
+} 
+.recruit1-1-4{
+	color: #000000;
+}
+.gangwen{
+	width:1263px;
+	height:530px;
+	margin: 0 auto;
+}
+.gangwen1{
+	width: 1150px;
+	height:442px;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: -13px;
+}
+.gangwen1-1{
+	width: 1150px;
+	height:100%;
+	color:#DFF0D8;
+}
+.gangwen1-2{
+	width: 1150px;
+	color:#DFF0D8;
+}
+.gangwen1-3{
+	padding: 90px 180px;
+	background: red;
+}
+.gangwen1-4{
+	width:50%;
+}
+.gangwen1-5{
+	width:50%;
+}
+.gangwen2{
+	color: #292929;
+	text-indent: 44px;
+	margin-top: 100px;
+}
+.gangwen2-1{
+	color: red;
+}
+.gangwen3{
+	font-size: 46px;
+	color: red;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;	
+	margin-top: 50px;
+}
+.gangwen3-1{
+	color:#000000;
+	padding: 20px 20px;
+	border-bottom:1px solid #000000;
+}
+.gangwen3-2{
+	width: 80%;
+	padding: 20px;
+	margin-left: 0px;
+}
+.gangwen3-2-1{
+	color:#000000;
+	padding: 20px 20px;
+}
+.gangwen3-1-1{
+	max-width:20%;
+	margin-left: 20px;
+}
+.gangwen3-1-2{
+	font-size:38px;
+	color:red;
+}
+.gangwen3-1-5{
+	max-width: 80%;
+	margin-top: 20px;
+}
+.gengwen3-1-6{
+	width:20%;
+}
+.gangwen3-1-7{
+	max-width:80%;
+	float:left;
+  margin-left: 20px;
+}
+.gangwen3-1-9{
+	max-width: 80%;
+  margin-top: 20px;
+}
+.gangwen4{
+	font-size: 46px;
+	color: red;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;	
+	margin-top: 50px;
+}
+.gangwen4-1{
+	font-size: 24px;
+	color: #2a2a2a;
+	line-height: 40px;
+	margin-left: 100px;
+}
+.gangwen5{
+	min-height: 547px;
+	background: url(../img/yangtonghang/footer.png) no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	letter-spacing: 3px;
+}
+.gangwen5-1{
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 36px;
+	margin-left: 100px;
+}
+.gangwen5-3{
+	padding:100px 0;
+}
+.gangwen5-4{
+	margin:0 auto;
+}
+.gangwen6{
+	background: red;
+	height: 100px;
+	color: white;
+}
+.gangwen6-2{
+	font-size: 40px;
+	font-weight: 500;
+	margin-left: 40px;
+}
+.gangwen6-3{
+	margin-left: 40px;
+}
+.gangwen6-4{
+	margin-top:10px;
+	width: 68px;
+  height: 68px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.gangwen6-3-3{
+	width: 144px;
+	height: 146px;
+	border: 1px solid #959595;
+	margin: 5px;
+}
+.gangwen6-3-3 p{
+	font-size: 18px;
+	text-align: center;
+}
+.gangwen6-3-4{
+	width: 0;
+	height: 0;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-top: 36px solid #ffffff;
+	position: absolute;
+	left: 50%;
+	bottom: -36px;
+	margin-left: -16px;
+}
+@media screen and (max-width: 1000px) {
+	.gangwen{
+		width:1000px;
+	}
+    .gangwen1-2{
+    	margin-top: 0;
+    }
+    .gangwen1-4{
+    	width:100%;
+    }
+    .gangwen5-1{
+    	margin-left: 0;
+    }
+    .gengwen3-1-4{
+    	font-size:12px;
+    }  
+}
+
+ 
+
